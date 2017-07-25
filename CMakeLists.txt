@@ -31,7 +31,7 @@ endif()
 #   Dependencies                                                             #
 ##############################################################################
 
-set (CUDA_ARCH "sm_35" CACHE STRING "Cuda Architechture") 
+set (CUDA_ARCH "sm_61" CACHE STRING "Cuda Architechture") 
 
 find_package (CUDA REQUIRED)
 
